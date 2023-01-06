@@ -1,0 +1,12 @@
+Package: KemansToGmm
+Type: Package
+Title: Use kmeans and GMM algorithm to classify the samples
+Version: 1.0
+Date: 2023-01-06
+Author: KongPengcheng
+Maintainer: KongPengcheng <1659805461@qq.com>
+Description: Firstly, the Kmeans algorithm is iterated to calculate the center of gravity of the class, and then the Gaussian mixture model is iterated to classify the samples
+License: GPL (>= 3)
+Imports: Rcpp (>= 1.0.9), ggplot2 (>= 1.0.1)
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.2.3
